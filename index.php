@@ -8,8 +8,8 @@
     <body>
             <!-- Affichage de l'en-tête User-agent -->
             <p><?= $_SERVER['HTTP_USER_AGENT'] . ' '; ?></p>
-            <!-- Affichage de l'adresse IP -->
-            <p><?= $_SERVER['SERVER_ADDR'] . ' '; ?></p>
+            <!-- Affichage de l'adresse IP client -->
+            <p><?= $_SERVER['REMOTE_ADDR'] . ' '; ?></p>
             <!-- Affichage du nom du serveur hôte -->
             <p><?= $_SERVER['SERVER_NAME']; ?></p>
         </p>
